@@ -1,1 +1,1 @@
-# 音割れメーカー
+# Next.js, TypeScript, TailwindCSS, Prettier のテンプレート

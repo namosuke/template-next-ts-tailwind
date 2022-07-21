@@ -1,11 +1,12 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-export const siteTitle = "Hello world!";
+type Props = {
+  children: React.ReactNode;
+};
 
-const Layout: NextPage = ({ children }) => {
+const Layout = ({ children }: Props) => {
   return (
     <>
       <Head>
